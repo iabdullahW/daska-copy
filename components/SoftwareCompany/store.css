@@ -1,0 +1,35 @@
+.bg {
+    background: url("../../public/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 90vh;
+    margin: auto;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }
+  
+  .mobile {
+    background: url("../../public/01-single-man-at-busy-desk-3d-animation-web-removebg-preview-removebg-preview-removebg-preview.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    /* min-height: 65vh; */
+    margin: auto;
+    border-radius: 1%;
+    background-repeat: no-repeat;
+  }
+  @media only screen and (max-width: 600px) {
+   .mobile {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+   .mobile {
+      display: none;
+    }
+  }
+  
+  

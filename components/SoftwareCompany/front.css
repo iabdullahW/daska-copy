@@ -1,0 +1,13 @@
+
+.bg{
+    
+    animation: mymove 5s infinite;
+  }
+
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+  }
